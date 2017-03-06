@@ -119,7 +119,11 @@ public class All  extends HttpServlet
 			{
 
 				//System.out.println("com");
+<<<<<<< HEAD
 			/*	out.print("	<html>");
+=======
+				out.print("	<html>");
+>>>>>>> 9073ae47a2679c5b79a4b73fe1b1b0a76b5e7439
 				out.print("<head>");
 				out.print("<title>");
 				out.print("JavaScript Automatic Page Redirect");
@@ -132,15 +136,23 @@ public class All  extends HttpServlet
 				out.print("setTimeout('"+"pageRedirect()'"+")");
 				out.print("		</script>");
 				out.print("</head>");
+<<<<<<< HEAD
 				out.print("</html>");*/
 				resp.sendRedirect("login.html");
+=======
+				out.print("</html>");
+>>>>>>> 9073ae47a2679c5b79a4b73fe1b1b0a76b5e7439
 
 			}
 			else
 			{
 
 				//System.out.println("com");
+<<<<<<< HEAD
 				/*out.print("	<html>");
+=======
+				out.print("	<html>");
+>>>>>>> 9073ae47a2679c5b79a4b73fe1b1b0a76b5e7439
 				out.print("<head>");
 				out.print("<title>");
 				out.print("JavaScript Automatic Page Redirect");
@@ -155,8 +167,12 @@ public class All  extends HttpServlet
 				out.print("email alredy in use");
 				out.print("</head>");
 				out.print("</html>");
+<<<<<<< HEAD
 */
 				resp.sendRedirect("register.html");
+=======
+
+>>>>>>> 9073ae47a2679c5b79a4b73fe1b1b0a76b5e7439
 			}
 		}
 
@@ -187,7 +203,11 @@ public class All  extends HttpServlet
 				if (resultSet.next())
 
 				{
+<<<<<<< HEAD
 					/*out.print("	<html>");
+=======
+					out.print("	<html>");
+>>>>>>> 9073ae47a2679c5b79a4b73fe1b1b0a76b5e7439
 					out.print("<head>");
 					out.print("<title>");
 					out.print("JavaScript Automatic Page Redirect");
@@ -200,8 +220,12 @@ public class All  extends HttpServlet
 					out.print("setTimeout('"+"pageRedirect()'"+")");
 					out.print("		</script>");
 					out.print("</head>");
+<<<<<<< HEAD
 					out.print("</html>");*/
 					resp.sendRedirect("first.html");
+=======
+					out.print("</html>");
+>>>>>>> 9073ae47a2679c5b79a4b73fe1b1b0a76b5e7439
 
 				}
 
@@ -209,7 +233,11 @@ public class All  extends HttpServlet
 				{
 					//	System.out.println(" email and password is not matching ");
 
+<<<<<<< HEAD
 					/*out.print("	<html>");
+=======
+					out.print("	<html>");
+>>>>>>> 9073ae47a2679c5b79a4b73fe1b1b0a76b5e7439
 					out.print("<head>");
 					out.print("<title>");
 					out.print("JavaScript Automatic Page Redirect");
@@ -223,8 +251,12 @@ public class All  extends HttpServlet
 					out.print("email and password is not matching");
 					out.print("		</script>");
 					out.print("</head>");
+<<<<<<< HEAD
 					out.print("</html>");*/
 					resp.sendRedirect("login.html");
+=======
+					out.print("</html>");
+>>>>>>> 9073ae47a2679c5b79a4b73fe1b1b0a76b5e7439
 
 				}
 			}
