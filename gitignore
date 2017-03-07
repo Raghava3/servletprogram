@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+.settings 
+.classpath
+.build
+.class
+.project
+=======
+.settings
+<<<<<<< HEAD
+.classpath
+.build
+.class
+=======
+.build
+.classpath
+.project 
+
+>>>>>>> 2067230909f245d7e2ca438a3782df464cfb8709
+>>>>>>> ac56693c2887e9323cc7f1cf154be8d0e2badf6a
