@@ -1,4 +1,11 @@
 .settings
+<<<<<<< HEAD
 .classpath
 .build
 .class
+=======
+.build
+.classpath
+.project 
+
+>>>>>>> 2067230909f245d7e2ca438a3782df464cfb8709
