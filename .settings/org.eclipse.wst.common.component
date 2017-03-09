@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
+    <wb-module deploy-name="loginvalidationusingjsp">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="loginvalidationusingjsp"/>
+        <property name="java-output-path" value="/loginvalidationusingjsp/build/classes"/>
+=======
+<<<<<<< HEAD
+    <wb-module deploy-name="cookie">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="cookie"/>
+        <property name="java-output-path" value="/cookie/build/classes"/>
+=======
+<<<<<<< HEAD
+    <wb-module deploy-name="Session">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Session"/>
+        <property name="java-output-path" value="/Session/build/classes"/>
+=======
+<<<<<<< HEAD
+    <wb-module deploy-name="session">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="session"/>
+        <property name="java-output-path" value="/session/build/classes"/>
+=======
+    <wb-module deploy-name="practical">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="practical"/>
+        <property name="java-output-path" value="/practical/build/classes"/>
+>>>>>>> ada73bc666ff6482246c1b410c8f2e705916f7d3
+>>>>>>> 133856c67ac9680d54acc8f171d5eb525bde264e
+>>>>>>> 2067230909f245d7e2ca438a3782df464cfb8709
+>>>>>>> ac56693c2887e9323cc7f1cf154be8d0e2badf6a
+    </wb-module>
+</project-modules>
