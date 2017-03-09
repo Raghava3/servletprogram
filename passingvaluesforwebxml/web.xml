@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>passingvaluefromwebxml</display-name>
+  <welcome-file-list>
+    <welcome-file>regform.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+    <servlet-name>reg</servlet-name>
+    <servlet-class>com.bar.Regform</servlet-class>
+    
+    <init-param>
+    <param-name>db1</param-name>
+    <param-value>jdbc:mysql://localhost:3306/Raghava?</param-value>
+    
+  
+    </init-param>
+      <init-param>
+      <param-name>db2</param-name>
+     <param-value>user=root</param-value>
+    </init-param>
+    
+    
+  
+      <init-param>
+      <param-name>db3</param-name>
+     <param-value>password=root</param-value>
+    </init-param>
+   
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>reg</servlet-name>
+    <url-pattern>/reg</url-pattern>
+    
+    </servlet-mapping>
+    
+    <context-param>
+    <param-name>name</param-name>
+    <param-value>com.mysql.jdbc.Driver</param-value>
+    </context-param>
+    
+</web-app>
